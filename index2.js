@@ -1,5 +1,4 @@
-require("dotenv").config();
-const API_KEY = " process.env.API_KEY";
+const API_KEY = "";
 const url = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 async function handle(e) {
   e.preventDefault();
